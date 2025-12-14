@@ -24,10 +24,11 @@ jobs:
         run: npm ci
 
       - name: Build site
-        id: build-site
+        run: npm run build
+
+      - name: Copy build output to root
         run: |
-          npm run build
-          echo "dist=./dist" >> $GITHUB_OUTPUT
+          cp -R dist/* .
 
   deploy:
     runs-on: ubuntu-latest
