@@ -1,10 +1,9 @@
-// src/data/blog.ts
 export const blogPosts = [
   {
-    title: "Deploying an E-commerce Apparel App on EKS",
-    url: "https://medium.com/devops-dev/aws-project-1-a-step-by-step-guide-to-deploying-e-commerce-apparel-app-on-amazon-eks-6bd4ecdb183f",
-    summary: "A Step-by-Step Guide to Deploying an E-commerce Apparel App on EKS",
-    date: "2024-07-11"
+    title: "Deploying Tetris on Kubernetes",
+    url: "https://medium.com/@yourhandle/deploying-tetris-on-kubernetes-123456",
+    summary: "Step by step guide for deploying Tetris using ArgoCD and Terraform.",
+    date: "2024-10-06"
   },
   {
     title: "Understanding DevSecOps Pipelines",
@@ -13,4 +12,3 @@ export const blogPosts = [
     date: "2024-11-10"
   }
 ];
-
