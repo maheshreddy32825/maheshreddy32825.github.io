@@ -1,10 +1,9 @@
-// src/data/projects.ts
 export const projects = [
   {
     name: "Kubernetes Tetris Deployment",
-    url: "https://medium.com/devops-dev/aws-project-1-a-step-by-step-guide-to-deploying-e-commerce-apparel-app-on-amazon-eks-6bd4ecdb183f",
+    url: "https://github.com/yourhandle/tetris-k8s",
     category: "Cloud",
-    description: "A Step-by-Step Guide to Deploying an E-commerce Apparel App on EKS"
+    description: "Deployed Tetris on Kubernetes with ArgoCD and Terraform."
   },
   {
     name: "AI Chatbot",
