@@ -1,1 +1,12 @@
-getStaticPaths() function is required for dynamic routes
+---
+// src/pages/blog/[slug].astro
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog'); // adjust for your content
+  return posts.map(post => ({ params: { slug: post.slug } }));
+}
+---
+<html>
+...
+</html>
